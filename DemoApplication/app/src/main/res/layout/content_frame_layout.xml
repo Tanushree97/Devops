@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".FrameLayout"
+    tools:showIn="@layout/activity_frame_layout">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/topleft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Top Left"
+            android:layout_gravity="top|left"/>
+
+        <TextView
+            android:id="@+id/topcenter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Top Center"
+            android:layout_gravity="top|center"/>
+
+        <TextView
+            android:id="@+id/topright"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Top Right"
+            android:layout_gravity="top|right"/>
+
+        <TextView
+            android:id="@+id/centerleft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Center Left"
+            android:layout_gravity="center|left"/>
+
+        <TextView
+            android:id="@+id/center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Center"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/centerright"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Center Right"
+            android:layout_gravity="center|right"/>
+
+        <TextView
+            android:id="@+id/bottomleft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bottom Left"
+            android:layout_gravity="bottom|left"/>
+
+        <TextView
+            android:id="@+id/bottomcenter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bottom Center"
+            android:layout_gravity="bottom|center"/>
+
+        <TextView
+            android:id="@+id/bottomright"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bottom Right"
+            android:layout_gravity="bottom|right"/>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
